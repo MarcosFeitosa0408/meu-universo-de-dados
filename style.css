@@ -165,6 +165,40 @@
         width: 0;
         transition: width 1.2s ease-in-out;
       }
+      .grafico-aprendizado {
+  padding: 40px 20px;
+  background-color: #131322;
+  text-align: center;
+}
+
+.barras-container {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.barra {
+  width: 100%;
+}
+
+.barra label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #f0f0f5;
+  text-align: left;
+}
+
+.progresso {
+  height: 22px;
+  background: linear-gradient(90deg, #6c63ff, #00bcd4);
+  border-radius: 12px;
+  width: 0;
+  transition: width 1.2s ease-in-out;
+}
+
       
   
     h1 {
